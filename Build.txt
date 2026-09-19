@@ -1,1 +1,0 @@
-python -m nuitka --standalone --onefile --windows-icon-from-ico=icon.ico --windows-console-mode=disable --windows-uac-admin --output-dir=dist --output-filename=SysClean.exe --enable-plugin=tk-inter --remove-output main.py
