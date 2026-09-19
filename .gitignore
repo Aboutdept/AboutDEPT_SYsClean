@@ -1,0 +1,45 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / build artifacts
+build/
+dist/
+*.spec.bak
+*.egg-info/
+.eggs/
+
+# PyInstaller intermediates
+*.manifest
+*.pyz
+*.pyz.py
+
+# Runtime generated data (never commit)
+logs/
+settings.json
+SysClean_cleanup.log
+cleanup_log.txt
+*.log
+
+# Third-party reference material (large, not part of the release)
+Ref/
+_markdown_src/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
