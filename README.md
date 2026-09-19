@@ -1,9 +1,32 @@
-# SysClean
+<p align="center">
+  <img src="icon.ico" alt="SysClean" width="96" height="96">
+</p>
 
-**面向 CG / 虚拟制片 / AIGC 工作流的 Windows 垃圾清理器**
-一个认识 Unreal、Unity、Houdini、Nuke、ComfyUI 缓存路径的开源清理工具 —— 通用清理器找不到的那几十 GB，它找得到。
+<h1 align="center">SysClean</h1>
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+<p align="center">
+  <b>面向 CG / 虚拟制片 / AIGC 工作流的 Windows 垃圾清理器</b><br>
+  一个认识 Unreal、Unity、Houdini、Nuke、ComfyUI 缓存路径的开源清理工具 —— 通用清理器找不到的那几十 GB，它找得到。
+</p>
+
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/语言-中文-red" alt="中文"></a>
+  <a href="README_EN.md"><img src="https://img.shields.io/badge/Language-English-blue" alt="English"></a>
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python">
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6" alt="Platform">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  <img src="https://img.shields.io/badge/Rules-3%2C911-orange" alt="Rules">
+  <img src="https://img.shields.io/badge/UI-tkinter%20Dark-4B8BBE" alt="UI">
+  <img src="https://img.shields.io/badge/Registry-Never%20touched-brightgreen" alt="No registry">
+</p>
+
+<p align="center">
+  <b>🌐 语言 / Language：</b>
+  <a href="README.md"><b>中文</b></a> ·
+  <a href="README_EN.md">English</a>
+</p>
+
+---
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Rules](https://img.shields.io/badge/Rules-3%2C911-orange)
@@ -200,7 +223,10 @@ SysClean/
 ├── tests/               # 回归测试（5 套，84 项断言）
 ├── tools/               # 未定义名静态扫描 + 全量回归入口
 ├── docs/                # 设计、调研、迭代、Bug 修复记录
-├── icon.ico / run.bat / build_exe.bat / *.spec
+├── icon.ico             # 程序图标（README 顶部徽标即引用此文件）
+├── run.bat / build_exe.bat / *.spec
+├── README.md            # 本文档（中文）
+├── README_EN.md         # 英文版（点击顶部 Language 徽标切换）
 ├── LICENSE              # MIT 全文（项目代码）
 ├── NOTICE.md            # 第三方数据来源与许可
 ├── CONTRIBUTING.md      # 贡献指南（含规则语法与安全红线）
@@ -420,3 +446,14 @@ FileKey1=%LocalAppData%\MyRenderer\Cache|*.tmp;*.cache|RECURSE
 ## 免责声明
 
 清理操作有风险。本工具默认移入回收站、提供干跑模式与排除规则，但**不保证任何删除操作的安全性**。建议首次使用时先只扫描、人工核对路径，再小批量清理；重要数据请先备份。
+
+---
+
+## 🌐 双语 / Bilingual
+
+本文档提供中文与英文两个版本，点击顶部 **语言 / Language** 徽标即可切换：
+
+- **中文（本文件）**：[`README.md`](README.md)
+- **English**：[`README_EN.md`](README_EN.md)
+
+两份内容完全对应，数据一致。若发现某处翻译不一致，以中文版为准。
